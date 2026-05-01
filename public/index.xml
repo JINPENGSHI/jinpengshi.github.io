@@ -2,76 +2,190 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/</link>
+    <link>https://jinpengshi.github.io/</link>
     <description>Recent content on </description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jinpengshi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://jinpengshi.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/research/</guid>
-      <description></description>
+      <guid>https://jinpengshi.github.io/research/</guid>
+      <description>&lt;style&gt;
+.universal-wrapper h1 { display: none; }
+
+.paper-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.paper-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.paper-links {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.abstract-box {
+  display: none;
+  margin-top: 0.75rem;
+  padding: 0.9rem 1rem;
+  background: #f8fafc;
+  border-left: 3px solid #2563eb;
+  border-radius: 6px;
+  line-height: 1.7;
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;working-papers&#34;&gt;Working Papers&lt;/h2&gt;
+&lt;div class=&#34;paper-entry&#34;&gt;
+  &lt;div class=&#34;paper-title&#34;&gt;
+    &lt;a href=&#34;https://drive.google.com/file/d/1j-PIBRCszIKex6iYdMK10FqkJCKCSoBb/view?usp=sharing&#34;&gt;
+      When District Attorneys Decide: Election Cycles and Prosecuting Behaviors
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;paper-links&#34;&gt;
+    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract1&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;abstract1&#34; class=&#34;abstract-box&#34;&gt;
+    We study how electoral incentives shape the prosecuting behaviors of district attorneys. To do so, we leverage more than 4 million web-scraped criminal case records from the Commonwealth of Virginia spanning over 25 years. Our analysis yields four main findings: (1) Consistent with shifting public attitudes toward crime, effective sentencing has exhibited a long-run decline, but this trend reverses in the most recent election cycle(s). (2) We identify no electoral pressures on district attorneys until the most recent election cycle(s), with point estimates that run into the opposite direction to the existing literature. (3) In the most recent election cycle(s), as elections approach, district attorneys are more lenient on lesser offenses while harsher on server cases, thereby resulting in higher effective sentencing. (4) Finally, case processing times have risen steadily over the past 25 years, and proximity to elections is associated with additional delays. Taken together, our findings provide a comprehensive view of the effect of electoral incentives on district attorneys.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paper-entry&#34;&gt;
+  &lt;div class=&#34;paper-title&#34;&gt;
+    Returns to Skills, Technological Change, and Intergenerational Mobility
+  &lt;/div&gt;
+  &lt;div class=&#34;paper-links&#34;&gt;
+    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract2&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;abstract2&#34; class=&#34;abstract-box&#34;&gt;
+    How does technological change influence economic opportunities across generations? While existing literature documents that technological change has profound effects on earnings distributions and occupational skill requirements, much less is known about how technological change affects intergenerational income persistence.This paper develops a framework that conceptualizes technological change as a process of skill re-evaluation across cohorts. The model shows how changes in the returns to skills can either strengthen or weaken intergenerational income persistence, providing a mechanism linking technological change to long-run mobility outcomes. We then test the model’s predictions using linked census data and nationally representative surveys spanning several decades. Our preliminary evidence suggests that technological change initially boosts intergenerational mobility by increasing skill demand; however, this effect fades over time as skill supply adjusts to shifts in relative returns. These findings contribute to ongoing policy debates on how to ensure that future technological change generates broadly shared economic gains.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paper-entry&#34;&gt;
+  &lt;div class=&#34;paper-title&#34;&gt;
+    A Theory of Intergenerational Mobility: Heterogeneous Returns and Social Capital
+  &lt;/div&gt;
+  &lt;div class=&#34;paper-links&#34;&gt;
+    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract3&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;abstract3&#34; class=&#34;abstract-box&#34;&gt;
+    Recent empirical evidence has documented the importance of social capital in shaping the economic opportunities in the labor market. We build on Becker et al. (2018) to formally theorize the role of social capital by endogenzing return to human capital. We introduce complementarity between family wealth and human capital in earning function. Our model prediction provides empirical relevant estimates of intergenerational elasticity, and is able to sustain high persistence without having to assume convexity between earnings and human capital. Our model highlights how social capital can exacerbate economic inequalities under imperfect labor market, the effect is more pronounced for the bottom of income distribution. We also point out that public intervention programs that overlook the role the social network among the disadvantaged may be insufficient to eradicate economic disparity across generations.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paper-entry&#34;&gt;
+  &lt;div class=&#34;paper-title&#34;&gt;
+    Innovation in Product Iteration
+  &lt;/div&gt;
+  &lt;div class=&#34;paper-links&#34;&gt;
+    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract4&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;abstract4&#34; class=&#34;abstract-box&#34;&gt;
+    This paper develops a dynamic model to examine firms’ strategic innovation decisions in markets where product quality and brand reputation play a pivotal role. Focusing on a two-period duopoly framework, the model highlights the trade-offs firms face in allocating resources between incremental product updates and riskier breakthrough innovations. Consumers derive utility not only from product quality but also from brand reputation, which is endogenized as a function of past sales. This interplay between quality competition and reputation dynamics is crucial in shaping firms’ profit-maximization strategies. The model extends the work of Goettler and Gordon (2011, 2014) by introducing endogenous brand reputation and differentiating types of innovation investments. Through comparative statics and equilibrium analysis, the findings provide insights into how leading and following firms navigate innovation decisions to maintain or improve their market position.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Publishing via Networking&lt;/li&gt;
+&lt;li&gt;Children as Risky Assets&lt;/li&gt;
+&lt;li&gt;Learning from Randomness: Mechanics and Identification of Non-shared Environment&lt;/li&gt;
+&lt;li&gt;Uniformly Fast and Efficient Optimization in Genome-wide Association Studies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script&gt;
+function toggleAbstract(id) {
+  var a = document.getElementById(id);
+  if (a.style.display === &#34;block&#34;) {
+    a.style.display = &#34;none&#34;;
+  } else {
+    a.style.display = &#34;block&#34;;
+  }
+}
+&lt;/script&gt;</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://jinpengshi.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jinpengshi.github.io/teaching/</guid>
+      <description>&lt;style&gt;
+.universal-wrapper h1 { display: none; }
+
+details { margin: 0.25rem 0; }
+summary { cursor: pointer; color: #fc6f5c; }
+summary:hover { text-decoration: underline; }
+details ul { margin: 0.4rem 0 0.4rem 1.2rem; }
+&lt;/style&gt;
+&lt;h2 id=&#34;instructor&#34;&gt;Instructor&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;phd-math-camp&#34;&gt;&lt;strong&gt;PhD Math Camp&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Online, Summer 2025&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/phd-math-camp/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;details&gt;
+&lt;summary&gt;Lecture Notes&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/phd-math-camp/lecture-notes/Session-1.pdf&#34;&gt;Lecture 1: Review of Basic Algebra, Derivative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/phd-math-camp/lecture-notes/Session-2.pdf&#34;&gt;Lecture 2: Linear Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/phd-math-camp/lecture-notes/Session-3.pdf&#34;&gt;Lecture 3: Calculus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/phd-math-camp/lecture-notes/Session-4.pdf&#34;&gt;Lecture 4: Differential Equations, Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/phd-math-camp/lecture-notes/Session-5.pdf&#34;&gt;Lecture 5: Comparative Statics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;econ-309-economic-problems-and-public-policies&#34;&gt;&lt;strong&gt;Econ 309 Economic Problems And Public Policies&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Online, Summer 2025&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://jinpengshi.github.io/teaching/econ-309/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;teaching-assistant&#34;&gt;Teaching Assistant&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Econ 104 Macroeconomic Principles&lt;/strong&gt;
+Hybrid, Fall 2025; Spring 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Econ 103 Microeconomic Principles&lt;/strong&gt;
+In-person, Fall 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Econ 830 Mathematical Economics I&lt;/strong&gt;
+In-person, Fall 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Econ 831 Mathematical Economics II (PhD Micro)&lt;/strong&gt;
+In-person, Spring 2024; Spring 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Econ 496/Econ 695 Economics and Biosocial Data&lt;/strong&gt;
+In-person, Spring 2024&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:1313/talk/</link>
+      <link>https://jinpengshi.github.io/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Courses</title>
-      <link>http://localhost:1313/courses/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      
-      <guid>http://localhost:1313/courses/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>http://localhost:1313/post/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/</guid>
+      <guid>https://jinpengshi.github.io/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/</link>
+      <link>https://jinpengshi.github.io/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/slides/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/project/</guid>
+      <guid>https://jinpengshi.github.io/slides/</guid>
       <description></description>
     </item>
     
