@@ -64,6 +64,7 @@ jobs:
       - name: Configure Git
         run: git config core.quotepath false
       - name: Build with Hugo
+        working-directory: ./website
         run: |
           hugo \
             --gc \
@@ -80,7 +81,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./website/public
 
   # Deployment job
   deploy:
