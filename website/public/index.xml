@@ -2,104 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:55722/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:55722/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Research</title>
-      <link>http://localhost:55722/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:55722/research/</guid>
+      <guid>http://localhost:1313/research/</guid>
       <description>&lt;style&gt;
-.universal-wrapper h1 { display: none; }
+
+.universal-wrapper h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
 
 .paper-entry {
   margin-bottom: 2rem;
-  padding-bottom: 1.2rem;
-  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #b5b5b5;
 }
 
 .paper-title {
+  margin: 0 0 0.75rem;
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
-.paper-links {
-  margin-top: 0.35rem;
-  font-size: 0.95rem;
+/* Paper link on its own line */
+.paper-link {
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.75rem;
 }
 
-.abstract-box {
-  display: none;
-  margin-top: 0.75rem;
-  padding: 0.9rem 1rem;
-  background: #f8fafc;
-  border-left: 3px solid #2563eb;
-  border-radius: 6px;
+/* Blue, underlined links and Abstract control */
+.paper-entry a,
+.paper-entry summary {
+  color: #2854b8;
+  font-size: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.paper-entry summary {
+  display: list-item; /* Keeps the native triangle */
+  width: fit-content;
+  padding-block: 0.25rem;
+  cursor: pointer;
+}
+
+/* Abstract appears naturally when details opens */
+.abstract-text {
+  margin: 0.75rem 0 0;
   line-height: 1.7;
+}
+
+.paper-entry a:focus-visible,
+.paper-entry summary:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+body.dark .paper-entry a,
+body.dark .paper-entry summary {
+  color: #9ecbff;
 }
 &lt;/style&gt;
 &lt;h2 id=&#34;working-papers&#34;&gt;Working Papers&lt;/h2&gt;
-&lt;div class=&#34;paper-entry&#34;&gt;
-  &lt;div class=&#34;paper-title&#34;&gt;
-    &lt;a href=&#34;https://drive.google.com/file/d/1j-PIBRCszIKex6iYdMK10FqkJCKCSoBb/view?usp=sharing&#34;&gt;
-      When District Attorneys Decide: Election Cycles and Prosecuting Behaviors
-    &lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;paper-links&#34;&gt;
-    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract1&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;abstract1&#34; class=&#34;abstract-box&#34;&gt;
-    We study how electoral incentives shape the prosecuting behaviors of district attorneys. To do so, we leverage more than 4 million web-scraped criminal case records from the Commonwealth of Virginia spanning over 25 years. Our analysis yields four main findings: (1) Consistent with shifting public attitudes toward crime, effective sentencing has exhibited a long-run decline, but this trend reverses in the most recent election cycle(s). (2) We identify no electoral pressures on district attorneys until the most recent election cycle(s), with point estimates that run into the opposite direction to the existing literature. (3) In the most recent election cycle(s), as elections approach, district attorneys are more lenient on lesser offenses while harsher on server cases, thereby resulting in higher effective sentencing. (4) Finally, case processing times have risen steadily over the past 25 years, and proximity to elections is associated with additional delays. Taken together, our findings provide a comprehensive view of the effect of electoral incentives on district attorneys.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paper-entry&#34;&gt;
-  &lt;div class=&#34;paper-title&#34;&gt;
-  &lt;a href=&#34;https://drive.google.com/file/d/1jcb92jgaxq7S2iYNGtJRTbdNkTkG7q80/view?usp=drive_link&#34;&gt;
+&lt;article class=&#34;paper-entry&#34; aria-labelledby=&#34;paper-1&#34;&gt;
+  &lt;h3 id=&#34;paper-1&#34; class=&#34;paper-title&#34;&gt;
+    When District Attorneys Decide: Election Cycles and Prosecuting Behaviors
+  &lt;/h3&gt;
+  &lt;a class=&#34;paper-link&#34; href=&#34;https://drive.google.com/file/d/1j-PIBRCszIKex6iYdMK10FqkJCKCSoBb/view?usp=sharing&#34;&gt;
+    Paper link
+  &lt;/a&gt;
+  &lt;details&gt;
+    &lt;summary&gt;Abstract&lt;/summary&gt;
+    &lt;p class=&#34;abstract-text&#34;&gt;We study how electoral incentives shape the prosecuting behaviors of district attorneys. To do so, we leverage more than 4 million web-scraped criminal case records from the Commonwealth of Virginia spanning over 25 years. Our analysis yields four main findings: (1) Consistent with shifting public attitudes toward crime, effective sentencing has exhibited a long-run decline, but this trend reverses in the most recent election cycle(s). (2) We identify no electoral pressures on district attorneys until the most recent election cycle(s), with point estimates that run into the opposite direction to the existing literature. (3) In the most recent election cycle(s), as elections approach, district attorneys are more lenient on lesser offenses while harsher on server cases, thereby resulting in higher effective sentencing. (4) Finally, case processing times have risen steadily over the past 25 years, and proximity to elections is associated with additional delays. Taken together, our findings provide a comprehensive view of the effect of electoral incentives on district attorneys.&lt;/p&gt;
+  &lt;/details&gt;
+&lt;/article&gt;
+&lt;article class=&#34;paper-entry&#34; aria-labelledby=&#34;paper-2&#34;&gt;
+  &lt;h3 id=&#34;paper-2&#34; class=&#34;paper-title&#34;&gt;
     Returns to Skills, Technological Change, and Intergenerational Mobility
-  &lt;/div&gt;
-  &lt;div class=&#34;paper-links&#34;&gt;
-    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract2&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;abstract2&#34; class=&#34;abstract-box&#34;&gt;
-    How does technological change influence economic opportunities across generations? While existing literature documents that technological change has profound effects on earnings distributions and occupational skill requirements, much less is known about how technological change affects intergenerational income persistence.This paper develops a framework that conceptualizes technological change as a process of skill re-evaluation across cohorts. The model shows how changes in the returns to skills can either strengthen or weaken intergenerational income persistence, providing a mechanism linking technological change to long-run mobility outcomes. We then test the model’s predictions using linked census data and nationally representative surveys spanning several decades. Our preliminary evidence suggests that technological change initially boosts intergenerational mobility by increasing skill demand; however, this effect fades over time as skill supply adjusts to shifts in relative returns. These findings contribute to ongoing policy debates on how to ensure that future technological change generates broadly shared economic gains.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paper-entry&#34;&gt;
-  &lt;div class=&#34;paper-title&#34;&gt;
-  &lt;a href=&#34;https://drive.google.com/file/d/1YqoLWWlARqmkfBU7ODI_0hTUO2_Hesrm/view?usp=drive_link&#34;&gt;
+  &lt;/h3&gt;
+  &lt;a class=&#34;paper-link&#34; href=&#34;https://drive.google.com/file/d/1jcb92jgaxq7S2iYNGtJRTbdNkTkG7q80/view?usp=drive_link&#34;&gt;
+    Paper link
+  &lt;/a&gt;
+  &lt;details&gt;
+    &lt;summary&gt;Abstract&lt;/summary&gt;
+    &lt;p class=&#34;abstract-text&#34;&gt;How does technological change influence economic opportunities across generations? While existing literature documents that technological change has profound effects on earnings distributions and occupational skill requirements, much less is known about how technological change affects intergenerational income persistence.This paper develops a framework that conceptualizes technological change as a process of skill re-evaluation across cohorts. The model shows how changes in the returns to skills can either strengthen or weaken intergenerational income persistence, providing a mechanism linking technological change to long-run mobility outcomes. We then test the model’s predictions using linked census data and nationally representative surveys spanning several decades. Our preliminary evidence suggests that technological change initially boosts intergenerational mobility by increasing skill demand; however, this effect fades over time as skill supply adjusts to shifts in relative returns. These findings contribute to ongoing policy debates on how to ensure that future technological change generates broadly shared economic gains.&lt;/p&gt;
+  &lt;/details&gt;
+&lt;/article&gt;
+&lt;article class=&#34;paper-entry&#34; aria-labelledby=&#34;paper-3&#34;&gt;
+  &lt;h3 id=&#34;paper-3&#34; class=&#34;paper-title&#34;&gt;
     A Theory of Intergenerational Mobility: Heterogeneous Returns and Social Capital
-  &lt;/div&gt;
-  &lt;div class=&#34;paper-links&#34;&gt;
-    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract3&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;abstract3&#34; class=&#34;abstract-box&#34;&gt;
-    Recent empirical evidence has documented the importance of social capital in shaping the economic opportunities in the labor market. We build on Becker et al. (2018) to formally theorize the role of social capital by endogenzing return to human capital. We introduce complementarity between family wealth and human capital in earning function. Our model prediction provides empirical relevant estimates of intergenerational elasticity, and is able to sustain high persistence without having to assume convexity between earnings and human capital. Our model highlights how social capital can exacerbate economic inequalities under imperfect labor market, the effect is more pronounced for the bottom of income distribution. We also point out that public intervention programs that overlook the role the social network among the disadvantaged may be insufficient to eradicate economic disparity across generations.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;paper-entry&#34;&gt;
-  &lt;div class=&#34;paper-title&#34;&gt;
+  &lt;/h3&gt;
+  &lt;a class=&#34;paper-link&#34; href=&#34;https://drive.google.com/file/d/1YqoLWWlARqmkfBU7ODI_0hTUO2_Hesrm/view?usp=drive_link&#34;&gt;
+    Paper link
+  &lt;/a&gt;
+  &lt;details&gt;
+    &lt;summary&gt;Abstract&lt;/summary&gt;
+    &lt;p class=&#34;abstract-text&#34;&gt;Recent empirical evidence has documented the importance of social capital in shaping the economic opportunities in the labor market. We build on Becker et al. (2018) to formally theorize the role of social capital by endogenzing return to human capital. We introduce complementarity between family wealth and human capital in earning function. Our model prediction provides empirical relevant estimates of intergenerational elasticity, and is able to sustain high persistence without having to assume convexity between earnings and human capital. Our model highlights how social capital can exacerbate economic inequalities under imperfect labor market, the effect is more pronounced for the bottom of income distribution. We also point out that public intervention programs that overlook the role the social network among the disadvantaged may be insufficient to eradicate economic disparity across generations.&lt;/p&gt;
+  &lt;/details&gt;
+&lt;/article&gt;
+&lt;article class=&#34;paper-entry&#34; aria-labelledby=&#34;paper-4&#34;&gt;
+  &lt;h3 id=&#34;paper-4&#34; class=&#34;paper-title&#34;&gt;
     Innovation in Product Iteration
-  &lt;/div&gt;
-  &lt;div class=&#34;paper-links&#34;&gt;
-    &lt;a href=&#34;#&#34; onclick=&#34;toggleAbstract(&#39;abstract4&#39;); return false;&#34;&gt;Abstract&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div id=&#34;abstract4&#34; class=&#34;abstract-box&#34;&gt;
-    This paper develops a dynamic model to examine firms’ strategic innovation decisions in markets where product quality and brand reputation play a pivotal role. Focusing on a two-period duopoly framework, the model highlights the trade-offs firms face in allocating resources between incremental product updates and riskier breakthrough innovations. Consumers derive utility not only from product quality but also from brand reputation, which is endogenized as a function of past sales. This interplay between quality competition and reputation dynamics is crucial in shaping firms’ profit-maximization strategies. The model extends the work of Goettler and Gordon (2011, 2014) by introducing endogenous brand reputation and differentiating types of innovation investments. Through comparative statics and equilibrium analysis, the findings provide insights into how leading and following firms navigate innovation decisions to maintain or improve their market position.
-  &lt;/div&gt;
-&lt;/div&gt;
+  &lt;/h3&gt;
+  &lt;details&gt;
+    &lt;summary&gt;Abstract&lt;/summary&gt;
+    &lt;p class=&#34;abstract-text&#34;&gt;This paper develops a dynamic model to examine firms’ strategic innovation decisions in markets where product quality and brand reputation play a pivotal role. Focusing on a two-period duopoly framework, the model highlights the trade-offs firms face in allocating resources between incremental product updates and riskier breakthrough innovations. Consumers derive utility not only from product quality but also from brand reputation, which is endogenized as a function of past sales. This interplay between quality competition and reputation dynamics is crucial in shaping firms’ profit-maximization strategies. The model extends the work of Goettler and Gordon (2011, 2014) by introducing endogenous brand reputation and differentiating types of innovation investments. Through comparative statics and equilibrium analysis, the findings provide insights into how leading and following firms navigate innovation decisions to maintain or improve their market position.&lt;/p&gt;
+  &lt;/details&gt;
+&lt;/article&gt;
 &lt;h2 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Intergenerational Mobility Accounting cver a Century&lt;/li&gt;
+&lt;li&gt;Intergenerational Mobility Accounting over a Century&lt;/li&gt;
 &lt;li&gt;Returns to Skills, Artificial Intelligence, and The Future of Intergenerational Mobility&lt;/li&gt;
 &lt;li&gt;Publishing via Networking&lt;/li&gt;
 &lt;li&gt;Children as Risky Assets&lt;/li&gt;
@@ -121,44 +156,94 @@ function toggleAbstract(id) {
     
     <item>
       <title>Teaching</title>
-      <link>http://localhost:55722/teaching/</link>
+      <link>http://localhost:1313/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:55722/teaching/</guid>
+      <guid>http://localhost:1313/teaching/</guid>
       <description>&lt;style&gt;
-.universal-wrapper h1 { display: none; }
 
-details { margin: 0.25rem 0; }
-summary { cursor: pointer; color: #fc6f5c; }
-summary:hover { text-decoration: underline; }
-details ul { margin: 0.4rem 0 0.4rem 1.2rem; }
+.universal-wrapper h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.article-style details {
+  margin: 0.5rem 0;
+}
+
+.article-style summary {
+  display: list-item;
+  width: fit-content;
+  padding-block: 0.35rem;
+  cursor: pointer;
+  color: #2854b8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.article-style summary:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.article-style details ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.article-style details li {
+  margin-bottom: 0.35rem;
+}
+
+body.dark .article-style summary {
+  color: #9ecbff;
+}
 &lt;/style&gt;
 &lt;h2 id=&#34;instructor&#34;&gt;Instructor&lt;/h2&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;phd-math-camp&#34;&gt;&lt;strong&gt;PhD Math Camp&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Online, Summer 2025&lt;/p&gt;
+&lt;h3 id=&#34;econ-309-economic-problems-and-public-policies&#34;&gt;&lt;strong&gt;Econ 309 Economic Problems And Public Policies&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Online, Summer 2025; In Person, Fall 2026&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:55722/teaching/phd-math-camp/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/teaching/econ-309/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;details&gt;
 &lt;summary&gt;Lecture Notes&lt;/summary&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:55722/teaching/phd-math-camp/lecture-notes/Session-1.pdf&#34;&gt;Lecture 1: Review of Basic Algebra, Derivative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:55722/teaching/phd-math-camp/lecture-notes/Session-2.pdf&#34;&gt;Lecture 2: Linear Algebra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:55722/teaching/phd-math-camp/lecture-notes/Session-3.pdf&#34;&gt;Lecture 3: Calculus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:55722/teaching/phd-math-camp/lecture-notes/Session-4.pdf&#34;&gt;Lecture 4: Differential Equations, Optimization&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:55722/teaching/phd-math-camp/lecture-notes/Session-5.pdf&#34;&gt;Lecture 5: Comparative Statics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/econ-309/causal%20inference.pdf&#34;&gt;Lecture 1: Causal Inference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/econ-309/economics%20of%20education.pdf&#34;&gt;Lecture 2: Economics of Education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/econ-309/automation%20and%20AI.pdf&#34;&gt;Lecture 3: Economics of AI&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/details&gt;
-&lt;h3 id=&#34;econ-309-economic-problems-and-public-policies&#34;&gt;&lt;strong&gt;Econ 309 Economic Problems And Public Policies&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;phd-math-camp&#34;&gt;&lt;strong&gt;PhD Math Camp&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Online, Summer 2025&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:55722/teaching/econ-309/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/teaching/phd-math-camp/syllabus.pdf&#34;&gt;Syllabus&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;details&gt;
+&lt;summary&gt;Lecture Notes&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/phd-math-camp/lecture-notes/Session-1.pdf&#34;&gt;Lecture 1: Review of Basic Algebra, Derivative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/phd-math-camp/lecture-notes/Session-2.pdf&#34;&gt;Lecture 2: Linear Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/phd-math-camp/lecture-notes/Session-3.pdf&#34;&gt;Lecture 3: Calculus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/phd-math-camp/lecture-notes/Session-4.pdf&#34;&gt;Lecture 4: Differential Equations, Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/teaching/phd-math-camp/lecture-notes/Session-5.pdf&#34;&gt;Lecture 5: Comparative Statics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;teaching-assistant&#34;&gt;Teaching Assistant&lt;/h2&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -178,19 +263,19 @@ In-person, Spring 2024&lt;/li&gt;
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:55722/talk/</link>
+      <link>http://localhost:1313/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:55722/talk/</guid>
+      <guid>http://localhost:1313/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:55722/slides/</link>
+      <link>http://localhost:1313/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:55722/slides/</guid>
+      <guid>http://localhost:1313/slides/</guid>
       <description></description>
     </item>
     

@@ -5,16 +5,70 @@ weight = 20
 +++
 
 <style>
-.universal-wrapper h1 { display: none; }
 
-details { margin: 0.25rem 0; }
-summary { cursor: pointer; color: #fc6f5c; }
-summary:hover { text-decoration: underline; }
-details ul { margin: 0.4rem 0 0.4rem 1.2rem; }
+.universal-wrapper h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.article-style details {
+  margin: 0.5rem 0;
+}
+
+.article-style summary {
+  display: list-item;
+  width: fit-content;
+  padding-block: 0.35rem;
+  cursor: pointer;
+  color: #2854b8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.article-style summary:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.article-style details ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.article-style details li {
+  margin-bottom: 0.35rem;
+}
+
+body.dark .article-style summary {
+  color: #9ecbff;
+}
 </style>
 
 ## Instructor
+
 ---
+
+### **Econ 309 Economic Problems And Public Policies**
+Online, Summer 2025; In Person, Fall 2026  
+- [Syllabus](/teaching/econ-309/syllabus.pdf)
+- <details>
+  <summary>Lecture Notes</summary>
+
+  - [Lecture 1: Causal Inference](</teaching/econ-309/causal inference.pdf>)
+  - [Lecture 2: Economics of Education](</teaching/econ-309/economics of education.pdf>)
+  - [Lecture 3: Economics of AI](</teaching/econ-309/automation and AI.pdf>)
+  
+
+</details>
+
+
 ### **PhD Math Camp**
 Online, Summer 2025  
 - [Syllabus](/teaching/phd-math-camp/syllabus.pdf)
@@ -30,9 +84,7 @@ Online, Summer 2025
 </details>
 
 
-### **Econ 309 Economic Problems And Public Policies**
-Online, Summer 2025  
-- [Syllabus](/teaching/econ-309/syllabus.pdf)
+
 
 
 

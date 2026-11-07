@@ -2,42 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:55722/research/</loc>
+    <loc>http://localhost:52052/research/</loc>
   </url><url>
-    <loc>http://localhost:55722/teaching/</loc>
+    <loc>http://localhost:52052/teaching/</loc>
   </url><url>
-    <loc>http://localhost:55722/</loc>
+    <loc>http://localhost:52052/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/talk/coding/</loc>
+    <loc>http://localhost:52052/talk/coding/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/talk/qualitative/</loc>
+    <loc>http://localhost:52052/talk/qualitative/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/talk/</loc>
+    <loc>http://localhost:52052/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/talk/synthesizing/</loc>
+    <loc>http://localhost:52052/talk/synthesizing/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/slides/</loc>
+    <loc>http://localhost:52052/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/slides/example/</loc>
+    <loc>http://localhost:52052/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:55722/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>http://localhost:52052/authors/admin/</loc>
   </url><url>
-    <loc>http://localhost:55722/authors/admin/</loc>
+    <loc>http://localhost:52052/authors/</loc>
   </url><url>
-    <loc>http://localhost:55722/authors/</loc>
+    <loc>http://localhost:52052/categories/</loc>
   </url><url>
-    <loc>http://localhost:55722/categories/</loc>
+    <loc>http://localhost:52052/publication_types/</loc>
   </url><url>
-    <loc>http://localhost:55722/publication_types/</loc>
-  </url><url>
-    <loc>http://localhost:55722/tags/</loc>
+    <loc>http://localhost:52052/tags/</loc>
   </url>
 </urlset>

@@ -300,15 +300,70 @@
 <div class="universal-wrapper">
   
   <div class="article-style" itemprop="articleBody"><style>
-.universal-wrapper h1 { display: none; }
 
-details { margin: 0.25rem 0; }
-summary { cursor: pointer; color: #fc6f5c; }
-summary:hover { text-decoration: underline; }
-details ul { margin: 0.4rem 0 0.4rem 1.2rem; }
+.universal-wrapper h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.article-style details {
+  margin: 0.5rem 0;
+}
+
+.article-style summary {
+  display: list-item;
+  width: fit-content;
+  padding-block: 0.35rem;
+  cursor: pointer;
+  color: #2854b8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.article-style summary:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+.article-style details ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.article-style details li {
+  margin-bottom: 0.35rem;
+}
+
+body.dark .article-style summary {
+  color: #9ecbff;
+}
 </style>
 <h2 id="instructor">Instructor</h2>
 <hr>
+<h3 id="econ-309-economic-problems-and-public-policies"><strong>Econ 309 Economic Problems And Public Policies</strong></h3>
+<p>Online, Summer 2025; In Person, Fall 2026</p>
+<ul>
+<li>
+<p><a href="/teaching/econ-309/syllabus.pdf">Syllabus</a></p>
+</li>
+<li>
+<details>
+<summary>Lecture Notes</summary>
+<ul>
+<li><a href="/teaching/econ-309/causal%20inference.pdf">Lecture 1: Causal Inference</a></li>
+<li><a href="/teaching/econ-309/economics%20of%20education.pdf">Lecture 2: Economics of Education</a></li>
+<li><a href="/teaching/econ-309/automation%20and%20AI.pdf">Lecture 3: Economics of AI</a></li>
+</ul>
+</li>
+</ul>
+</details>
 <h3 id="phd-math-camp"><strong>PhD Math Camp</strong></h3>
 <p>Online, Summer 2025</p>
 <ul>
@@ -328,11 +383,6 @@ details ul { margin: 0.4rem 0 0.4rem 1.2rem; }
 </li>
 </ul>
 </details>
-<h3 id="econ-309-economic-problems-and-public-policies"><strong>Econ 309 Economic Problems And Public Policies</strong></h3>
-<p>Online, Summer 2025</p>
-<ul>
-<li><a href="/teaching/econ-309/syllabus.pdf">Syllabus</a></li>
-</ul>
 <h2 id="teaching-assistant">Teaching Assistant</h2>
 <hr>
 <ul>
