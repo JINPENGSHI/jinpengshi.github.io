@@ -55,6 +55,7 @@ weight = 20
 
 <div class="paper-entry">
   <div class="paper-title">
+  <a href="https://drive.google.com/file/d/1jcb92jgaxq7S2iYNGtJRTbdNkTkG7q80/view?usp=drive_link">
     Returns to Skills, Technological Change, and Intergenerational Mobility
   </div>
 
@@ -69,6 +70,7 @@ weight = 20
 
 <div class="paper-entry">
   <div class="paper-title">
+  <a href="https://drive.google.com/file/d/1YqoLWWlARqmkfBU7ODI_0hTUO2_Hesrm/view?usp=drive_link">
     A Theory of Intergenerational Mobility: Heterogeneous Returns and Social Capital
   </div>
 
@@ -97,9 +99,12 @@ weight = 20
 
 ## Work in Progress
 
+- Intergenerational Mobility Accounting cver a Century
+- Returns to Skills, Artificial Intelligence, and The Future of Intergenerational Mobility
 - Publishing via Networking  
 - Children as Risky Assets  
-- Learning from Randomness: Mechanics and Identification of Non-shared Environment  
+- Learning from Randomness: The Mechanics and Identification of Non-shared Environment 
+- On the Monotonicity of Mendelian Randomization 
 - Uniformly Fast and Efficient Optimization in Genome-wide Association Studies  
 
 <script>
