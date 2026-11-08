@@ -33,6 +33,7 @@ interests:
   - Labor Economics
   - Applied Microeconomics
   - Applied Econometrics
+  - Economics of AI
 
 # Short bio
 bio: My research 

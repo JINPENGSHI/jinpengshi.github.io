@@ -9,9 +9,14 @@
   weight = 10
 
 [[main]]
+  name = "Job Market Paper"
+  url = "job_market_paper/"
+  weight = 30
+
+[[main]]
   name = "Research"
   url = "research/"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Teaching"
